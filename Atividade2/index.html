@@ -3,33 +3,37 @@
   <head>
     <meta charset="utf-8" />
     <title>Função 2 - Salário</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <form action="processamento.php" method="post">
-      <label for="nome">Nome</label>
-      <br />
-      <input type="text" name="nome" id="nome" />
-      <br />
-      <br />
+    <div id="boxInfo">
+      <form action="processamento.php" method="post">
+        <label for="nome">Nome</label>
+        <br />
+        <input type="text" name="nome" id="nome" />
+        <br />
+        <br />
 
-      <label for="salario">Salário</label>
-      <br />
-      <input type="number" name="salario" id="salario" step="0.01" required />
-      <br />
-      <br />
+        <label for="salario">Salário</label>
+        <br />
+        <input type="number" name="salario" id="salario" step="0.01" required />
+        <br />
+        <br />
 
-      <label for="vendas">Valor das vendas</label>
-      <br />
-      <input type="number" name="vendas" id="vendas" step="0.01" required />
-      <br />
-      <br />
+        <label for="vendas">Valor das vendas</label>
+        <br />
+        <input type="number" name="vendas" id="vendas" step="0.01" required />
+        <br />
+        <br />
 
-      <button type="submit">Calcular Salário</button>
-    </form>
+        <button type="submit">Calcular Salário</button>
+      </form>
+    </div>
     <div id="resultado"></div>
     <p>
-      ATENÇÃO:<br> O separador decimal utiliza ","<br> O separador de milhar utiliza
-      "."
+      ATENÇÃO:<br />
+      O separador decimal utiliza ","<br />
+      O separador de milhar utiliza "."
     </p>
   </body>
 </html>

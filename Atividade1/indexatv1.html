@@ -1,34 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
-    <title>Função 1 - Média escolar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Função 1 - Média Escolar</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form action="processamento.php" method="get">
-      
-      <label for="nota1">nota1</label>
-      <input type="number" name ="nota1" id="nota1" required step ="0.1" min="0" max="10" />
-      <br>
-      <br>
+    <h1>Insira abaixo suas notas para saber sua média final e se foi ou não aprovado</h1>
+    <div id="boxInfo">
+      <form action="processamento.php" method="get">
+        <label for="nota1">Nota 1</label>
+        <input
+          type="number"
+          name="nota1"
+          id="nota1"
+          required
+          step="0.1"
+          min="0"
+          max="10"
+        />
+        <br />
+        <label for="nota2">Nota 2</label>
+        <input
+          type="number"
+          name="nota2"
+          id="nota2"
+          required
+          step="0.1"
+          min="0"
+          max="10"
+        />
+        <br />
 
-      <label for="nota2">nota2</label>
-      <input type="number" name ="nota2" id="nota2" required step ="0.1" min="0" max="10"/>
-      <br>
-      <br>
+        <label for="nota3">Nota 3</label>
+        <input
+          type="number"
+          name="nota3"
+          id="nota3"
+          required
+          step="0.1"
+          min="0"
+          max="10"
+        />
+        <br />
+        <label for="nota4">Nota 4</label>
+        <input
+          type="number"
+          name="nota4"
+          id="nota4"
+          required
+          step="0.1"
+          min="0"
+          max="10"
+        />
+        <br />
+        <br />
 
-      <label for="nota3">nota3</label>
-      <input type="number" name ="nota3" id="nota3" required step ="0.1" min="0" max="10"/>
-      <br>
-      <br>
+        <button type="submit">Calcular</button>
+      </form>
+    </div>
 
-      <label for="nota4">nota4</label>
-      <input type="number" name ="nota4" id="nota4" required step ="0.1" min="0" max="10"/>
-      <br>
-      <br>
-
-      <button type="submit">Calcular Média</button>
-    </form>
     <div id="resultado"></div>
   </body>
 </html>
