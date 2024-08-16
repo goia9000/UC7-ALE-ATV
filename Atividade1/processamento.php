@@ -1,11 +1,11 @@
 <?php
 
-$nota1 = $_GET ["nota1"];
-$nota2 = $_GET ["nota2"];
-$nota3 = $_GET ["nota3"];
-$nota4 = $_GET ["nota4"];
+$nota1 = $_GET["nota1"];
+$nota2 = $_GET["nota2"];
+$nota3 = $_GET["nota3"];
+$nota4 = $_GET["nota4"];
 
-$media = ($nota1+$nota2+$nota3+$nota4) / 4;
+$media = ($nota1 + $nota2 + $nota3 + $nota4) / 4;
 $mensagem = "";
 
 if (isset($_GET['nota_exame'])) {
@@ -33,7 +33,7 @@ if (isset($_GET['nota_exame'])) {
                 <input type='number' name='nota_exame' placeholder='Nota do exame' required step='0.1' min='0' max='10'>
                 <input type='submit' value='Calcular Nova Média'>
               </form>";
-        exit; 
+        exit;
     }
 }
 echo $mensagem;
