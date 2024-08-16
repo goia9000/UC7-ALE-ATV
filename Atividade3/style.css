@@ -49,49 +49,49 @@ button:hover {
   color: yellow;
 }
 input {
-    border-radius: 15px;
-    background-color: black;
-    color: yellow;
+  border-radius: 15px;
+  background-color: black;
+  color: yellow;
 }
 h1 {
-    text-align: center;
-    color: yellow;
-    margin-bottom: -150px;
+  text-align: center;
+  color: yellow;
+  margin-bottom: -150px;
 }
 #boxInfo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #6755ff; 
-    border: 2px solid black; 
-    border-radius: 10px;
-    width: 300px; 
-    height: 300px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #6755ff;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 label {
-    color: yellow;
+  color: yellow;
 }
 button {
-    border-radius: 15px;
-    background-color: yellow;
-    color: rgb(103, 85, 204);
-    border: 100vh; 
-    cursor: pointer;
-    width: 100px; 
-    height: 20px; 
+  border-radius: 15px;
+  background-color: yellow;
+  color: rgb(103, 85, 204);
+  border: 100vh;
+  cursor: pointer;
+  width: 100px;
+  height: 20px;
 }
 button:hover {
-    background-color: rgb(103, 85, 204);
-    color: yellow;
+  background-color: rgb(103, 85, 204);
+  color: yellow;
 }

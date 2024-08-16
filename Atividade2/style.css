@@ -32,27 +32,25 @@ form {
   height: 350px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #6755ff; 
-    border: 2px solid black; 
-    border-radius: 10px;
-    width: 300px; 
-    height: 350px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #6755ff;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 350px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 label {
   color: yellow;
 }
 button {
-
   border-radius: 15px;
   background-color: yellow;
   color: rgb(103, 85, 204);
