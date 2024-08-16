@@ -3,25 +3,27 @@
   <head>
     <meta charset="utf-8" />
     <title>Função 3 - Número trocado</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <form action="processamento.php" method="get">
+    <h1>Coletar e Apresentar Números Trocados</h1>
+    <div id="boxInfo">
+      <form action="processamento.php" method="get">
+        <label for="var1">Variável "A"</label>
+        <br />
+        <input type="number" name="var1" id="var1" step="0.01" required />
+        <br />
+        <br />
 
-      <label for="var1">Variável "A"</label>
-      <br />
-      <input type="number" name="var1" id="var1" step="0.01" required />
-      <br />
-      <br />
+        <label for="var2">Variável "B"</label>
+        <br />
+        <input type="number" name="var2" id="var2" step="0.01" required />
+        <br />
+        <br />
 
-      <label for="var2">Variável "B"</label>
-      <br />
-      <input type="number" name="var2" id="var2" step="0.01" required />
-      <br />
-      <br />
-
-      <button type="submit">Ler Variáveis</button>
-    </form>
+        <button type="submit">Ler Variáveis</button>
+      </form>
+    </div>
     <div id="resultado"></div>
-   
   </body>
 </html>
