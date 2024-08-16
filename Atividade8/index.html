@@ -2,33 +2,56 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Função 8 - Valor Final do veículo </title>
+    <title>Função 8 - Valor Final do veículo</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form action="processamento.php" method="get">
+    <h1>Valor Final do Veículo</h1>
+    <div id="boxInfo">
+      <form action="processamento.php" method="get">
+        <label for="custo">Insira o custo de fábrica</label>
+        <br />
+        <br />
+        <input
+          type="number"
+          name="custo"
+          id="custo"
+          step="0.01"
+          min="0"
+          required
+        />
+        <br />
+        <br />
 
-      <label for="custo">Insira o custo de fábrica</label>
-      <br />
-      <br />
-      <input type="number" name="custo" id="custo" step="0.01" min="0" required  />
-      <br />
-      <br />
+        <label for="percentual">Insira o percentual de lucro</label>
+        <br />
+        <br />
+        <input
+          type="number"
+          name="percentual"
+          id="percentual"
+          step="0.01"
+          min="0"
+          required
+        />
+        <br />
+        <br />
 
-      <label for="percentual">Insira o percentual de lucro</label>
-      <br />
-      <br />
-      <input type="number" name="percentual" id="percentual" step="0.01" min="0" required />
-      <br />
-      <br />
+        <label for="imposto">Valor do imposto</label>
+        <br />
+        <br />
+        <input
+          type="number"
+          name="imposto"
+          id="imposto"
+          step="0.01"
+          min="0"
+          required
+        />
 
-      <label for="imposto">Valor do imposto</label>
-      <br>
-      <br>
-      <input type="number" name="imposto" id="imposto" step="0.01" min="0" required>
-
-      <button type="submit">Calcular</button>
-    </form>
+        <button type="submit">Calcular</button>
+      </form>
+    </div>
     <div id="resultado"></div>
-   
   </body>
 </html>

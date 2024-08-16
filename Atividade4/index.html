@@ -2,21 +2,23 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Função 4 - Par ou Impar </title>
+    <title>Função 4 - Par ou Impar</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form action="processamento.php" method="get">
+    <h1>Par ou Impar?</h1>
+    <div id="boxInfo">
+      <form action="processamento.php" method="get">
+        <label for="num">Insira um número</label>
+        <br />
+        <br />
+        <input type="number" name="num" id="num" required />
+        <br />
+        <br />
 
-      <label for="num">Insira um número</label>
-      <br />
-      <br />
-      <input type="number" name="num" id="num" required />
-      <br />
-      <br />
-
-      <button type="submit">Par ou Impar?</button>
-    </form>
+        <button type="submit">Par ou Impar?</button>
+      </form>
+    </div>
     <div id="resultado"></div>
-   
   </body>
 </html>
