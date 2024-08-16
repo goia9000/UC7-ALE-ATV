@@ -12,7 +12,6 @@ h1 {
   margin-bottom: -150px;
 }
 #boxInfo {
-<<<<<<< HEAD
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,12 +31,6 @@ form {
   width: 300px;
   height: 350px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-=======
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-
 }
 form{
     display: flex;
@@ -53,13 +46,13 @@ form{
     width: 300px; 
     height: 350px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
->>>>>>> c35e2c71e1e084cfbc812c96def41b5af0729339
+
 }
 label {
   color: yellow;
 }
 button {
-<<<<<<< HEAD
+
   border-radius: 15px;
   background-color: yellow;
   color: rgb(103, 85, 204);
@@ -68,16 +61,6 @@ button {
   width: 100px;
   height: 40px;
   margin-bottom: 20px;
-=======
-    border-radius: 15px;
-    background-color: yellow;
-    color: rgb(103, 85, 204);
-    border: 100vh; 
-    cursor: pointer;
-    width: 100px; 
-    height: 40px;
-    margin-bottom: 20px;
->>>>>>> c35e2c71e1e084cfbc812c96def41b5af0729339
 }
 button:hover {
   background-color: rgb(103, 85, 204);

@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
   background-color: #6755cc;
 }
 input {
@@ -48,8 +47,7 @@ button {
 button:hover {
   background-color: rgb(103, 85, 204);
   color: yellow;
-=======
-    background-color: #6755cc;
+  background-color: #6755cc;
 }
 input {
     border-radius: 15px;
@@ -97,5 +95,4 @@ button {
 button:hover {
     background-color: rgb(103, 85, 204);
     color: yellow;
->>>>>>> c35e2c71e1e084cfbc812c96def41b5af0729339
 }
